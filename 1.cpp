@@ -4,13 +4,13 @@ using namespace std;
 
 int main(){
 	
-	int a[5];
+	int a[6];
 	int n;
 	int mayor=0;
 	int menor;
 	
 	
-	for(int i=0; i<=4; i++){
+	for(int i=0; i<=5; i++){
 	cout<<"Introduce un numero "<<i<<" :" ;
 	cin>>n;
 	
@@ -23,7 +23,7 @@ int main(){
 	}
 	
 	menor=a[0];
-	for(int e=0; e<=4; e++){
+	for(int e=0; e<=5; e++){
 		
 		if(a[e] <= menor){
 		menor= a[e];
